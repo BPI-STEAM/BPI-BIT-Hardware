@@ -69,7 +69,7 @@ Webduino Bit 开发板长 5 公分宽 5 公分，重量约 10 ~ 12 公克，除�
 
 - [Webduino 基础教学](https://webduino.com.cn/site/zh_cn/tutorials.html)
 - [Webduino 玩家指南](https://github.com/BPI-STEAM/BPI-BIT-WebDuino)
-- [MicroPython 中文社区](https://forum.banana-pi.org.cn/c/bpi-bit/webduino)
+- [Webduino 中文社区](https://forum.banana-pi.org.cn/c/bpi-bit/webduino)
 
 ### MicroPython
 

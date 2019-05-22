@@ -74,7 +74,7 @@ The board is divided into 1.2 and 1.4 versions, and the version number is marked
 
 - [Webduino Basic](https://webduino.com.cn/site/zh_cn/tutorials.html)
 - [Webduino player's guide](https://github.com/BPI-STEAM/BPI-BIT-WebDuino)
-- [MicroPython Community](http://forum.banana-pi.org/c/bpi-bit/BPI-Webduino)
+- [Webduino Community](http://forum.banana-pi.org/c/bpi-bit/BPI-Webduino)
 
 ### MicroPython
 
