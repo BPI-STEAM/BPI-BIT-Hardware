@@ -68,6 +68,8 @@ The board is divided into 1.2 and 1.4 versions, and the version number is marked
 
 ## Product support
 
+### [install driver](driver_en.md)
+
 ### Webduino
 
 - [Webduino Basic](https://webduino.com.cn/site/zh_cn/tutorials.html)
