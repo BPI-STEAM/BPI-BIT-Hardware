@@ -20,7 +20,7 @@
 
 ![](readme/Interface_CN.jpg)
 
-Webduino Bit 开发板长 5 公分宽 5 公分，重量约 10~12 公克，除了下方 20 Pin 的「金手指接口」，更内置一个 25 颗全彩 LED 灯的矩阵，两个光敏电阻、两个按钮开关、一个温度感应电阻、一个蜂鸣器和一个九轴传感器 ( 三轴加速度、三轴陀螺仪与三轴磁力指南针 )，脚位配置如下：
+Webduino Bit 开发板长 5 公分宽 5 公分，重量约 10 ~ 12 公克，除了下方 20 Pin 的「金手指接口」，更内置一个 25 颗全彩 LED 灯的矩阵，两个光敏电阻、两个按钮开关、一个温度感应电阻、一个蜂鸣器和一个九轴传感器 ( 三轴加速度、三轴陀螺仪与三轴磁力指南针 )，脚位配置如下：
 
 - 全彩 LED 矩阵：A10 ( GPIO 4 )
 - 光敏传感器：左上 A0 ( GPIO 36 )、右上 A3 ( GPIO 39 )
@@ -31,15 +31,15 @@ Webduino Bit 开发板长 5 公分宽 5 公分，重量约 10~12 公克，除了
 
 ## 拓展引脚
 
-![](https://webduino.com.cn/site/img/tutorials/zh_cn/detail-05.jpg)
+![](readme/goldfinger.jpg)
 
-![](https://webduino.com.cn/site/img/tutorials/zh_cn/detail-04.jpg)
+![](readme/pin-define.jpg)
 
 ### LED 编号
 
 板子按照 5 * 5 排列方式焊接了 25 颗(编号 0 ~ 24 ) 1600 万色全彩 LED (WS2812) ，所有的 LED 的控制仅使用一个引脚 (GPIO 4) 即可控制。
 
-![](https://forum.banana-pi.org.cn/uploads/default/original/2X/7/701a545ab3d423851845b746f7cc4c588c36a561.JPG)
+![](readme/product.jpg)
 
 板子正面 LED 序号排布方式如下（5 * 5）
 
@@ -74,7 +74,7 @@ Webduino Bit 开发板长 5 公分宽 5 公分，重量约 10~12 公克，除了
 ### MicroPython
 
 - [MicroPython 玩家指南](https://github.com/BPI-STEAM/BPI-BIT-MicroPython)
-- [MicroPython 示例代码](https://github.com/BPI-STEAM/BPI-BIT-WebDuino)
+- [MicroPython 示例代码](https://github.com/BPI-STEAM/BPI-BIT-Samples)
 - [MicroPython 中文社区](https://forum.banana-pi.org.cn/c/bpi-bit/micropython)
 
 ### Arduino
@@ -82,6 +82,20 @@ Webduino Bit 开发板长 5 公分宽 5 公分，重量约 10~12 公克，除了
 - [Arduino 玩家指南](https://github.com/BPI-STEAM/BPI-BIT-Arduino)
 
 ## 硬件设计
+
+### 引脚占用
+
+| Interface          | IO      | Mode                                |
+|--------------------|---------|-------------------------------------|
+| Light Sensor(L)    | GPIO 36 | Analog Input                        |
+| Light Sensor(R)    | GPIO 39 | Analog Input                        |
+| Temperature Sensor | GPIO 34 | Analog Input                        |
+| Buzzer             | GPIO 25 | PWM(Digital Output) / Analog Output |
+| RGB_LED            | GPIO 4  | Digital Output                      |
+| MPU9250_SCL        | GPIO 22 | Digital Output                      |
+| MPU9250_SDA        | GPIO 21 | Digital Output                      |
+| MPU9250_INT        | GPIO 16 | Digital Input                       |
+| R_LED(SPI_SCK)     | GPIO 18 | Digital Output                      |
 
 ### 外观资料
 

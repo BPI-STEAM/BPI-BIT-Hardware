@@ -36,15 +36,15 @@ Webduino Bit development board 5 cm width 5 cm long, weighs about 10 ~ 12 grams,
 
 ## Expand the pin
 
-![](https://webduino.com.cn/site/img/tutorials/zh_cn/detail-05.jpg)
+![](readme/goldfinger.jpg)
 
-![](https://webduino.com.cn/site/img/tutorials/zh_cn/detail-04.jpg)
+![](readme/pin-define.jpg)
 
 ### LED number
 
 The board is welded with 25 (no. 0 ~ 24) 16 million color full-color LED (WS2812) according to the 5 * 5 arrangement. Only one pin (GPIO 4) can be used to control all LED.
 
-![](https://forum.banana-pi.org.cn/uploads/default/original/2X/7/701a545ab3d423851845b746f7cc4c588c36a561.JPG)
+![](readme/product.jpg)
 
 LED serial Numbers of the front panel are arranged as follows (5 * 5).
 
@@ -87,6 +87,20 @@ The board is divided into 1.2 and 1.4 versions, and the version number is marked
 - [Arduino player's guide](https://github.com/BPI-STEAM/BPI-BIT-Arduino)
 
 ## Hardware design
+
+### Pin occupancy
+
+| Interface          | IO      | Mode                                |
+|--------------------|---------|-------------------------------------|
+| Light Sensor(L)    | GPIO 36 | Analog Input                        |
+| Light Sensor(R)    | GPIO 39 | Analog Input                        |
+| Temperature Sensor | GPIO 34 | Analog Input                        |
+| Buzzer             | GPIO 25 | PWM(Digital Output) / Analog Output |
+| RGB_LED            | GPIO 4  | Digital Output                      |
+| MPU9250_SCL        | GPIO 22 | Digital Output                      |
+| MPU9250_SDA        | GPIO 21 | Digital Output                      |
+| MPU9250_INT        | GPIO 16 | Digital Input                       |
+| R_LED(SPI_SCK)     | GPIO 18 | Digital Output                      |
 
 ### Appearance
 
