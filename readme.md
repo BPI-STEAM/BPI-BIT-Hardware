@@ -1,5 +1,5 @@
 
-# &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;bpi:bit 开源硬件
+# &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;bpi:bit 开源硬件 📓
 
 [English Docs](readme_en.md)
 
