@@ -12,10 +12,6 @@
 
 This product is designed with esp-wroom-32 (ESP32) module as the core with 40 nm process, using Tensilica LX6 dual-core 32-bit processor, frequency up to 240 MHz, with 32 I/O pins, It supports 2.4g wi-fi, bluetooth 4.0 or above and other communication modes. It has a memory capacity of 448KB ROM and 520kb SRAM and a processing speed of 600 DMIPS.
 
-It is also known as Webduino Bit, Webduino is the latest development board, in addition to the original function of everything (wi-fi control, multi-device parallel, collaborative work... Many interesting components and sensors are built in.
-
-In the meantime, the bpi:bit open source community will continue to incorporate most of micro:bit's accessories and usage.
-
 ## Appearance introduction
 
 ![](readme/Interface_EN.jpg)
@@ -42,7 +38,7 @@ Webduino Bit development board 5 cm width 5 cm long, weighs about 10 ~ 12 grams,
 
 ### LED number
 
-The board is welded with 25 (no. 0 ~ 24) 16 million color full-color LED (WS2812) according to the 5 * 5 arrangement. Only one pin (GPIO 4) can be used to control all LED.
+The front of the board with 25 (no. 0 ~ 24) 16 million color full-color LED (WS2812) according to the 5 * 5 arrangement. Only one pin (GPIO 4) can be used to control all LED.
 
 ![](readme/product.jpg)
 
